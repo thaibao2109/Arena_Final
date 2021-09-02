@@ -128,7 +128,7 @@ p.sub-heading-decs {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url("/assets/image/page_one.jpeg") top right / cover no-repeat;
+    background: url("../assets/image/page_one.jpeg") top right / cover no-repeat;
     animation: FadeInblur 2s ease;
 }
 
@@ -136,7 +136,7 @@ p.sub-heading-decs {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url("/assets/image/page_two.jpeg") bottom right / cover no-repeat;
+    background: url("../assets/image/page_two.jpeg") bottom right / cover no-repeat;
     animation: FadeInblur 2s ease;
 }
 
@@ -145,21 +145,21 @@ p.sub-heading-decs {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url("/assets/image/page_three.jpeg") bottom right / cover no-repeat;
+    background: url("../assets/image/page_three.jpeg") bottom right / cover no-repeat;
 } 
 
 #page-four {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url("/assets/image/page_four.jpeg") bottom right / cover no-repeat;
+    background: url("../assets/image/page_four.jpeg") bottom right / cover no-repeat;
 }
 
 #page-five {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url("/assets/image/page_five.jpeg") bottom right / cover no-repeat;
+    background: url("../assets/image/page_five.jpeg") bottom right / cover no-repeat;
 }
 
 
