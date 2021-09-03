@@ -25,9 +25,10 @@
     width: 70px;
     height: 100vh;
     text-align: center;
-    border-right: .1px solid rgba(0, 0, 0, 0.1);
+    border-right: .1px solid rgba(255, 255, 255, 0.1);
     position: fixed;
     z-index: 2;
+    backdrop-filter: blur(2px);
  }
 
  .menu{
@@ -63,24 +64,32 @@
     color: white;
     font-size: 20px;
     padding: 20%;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(255, 255, 255, 0.1);
     cursor: pointer;
 }
 
-.page-one-ml {
+.page-ml {
     margin-left: 70px;
+}
+
+.mulogo {
+    width: 25px;
 }
 
 .heading-page {
     color: white;
     padding: 70px;
-    width: 50%;
+    width: 60%;
     animation: FadeIn 2s ease;
     position: relative;
 }
 
+.heading-page-lineup {
+    width: 40%;
+}
+
 .heading {
-    font-size: 16vh;
+    font-size: 10vh;
     line-height: 1;
 }
 
@@ -97,13 +106,14 @@
 }
 
 .decs-page {
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color: rgba(255, 0, 0, 0.007);
     width: calc(100vw - 70px);
     height: 20%;
     display: flex;
     position: absolute;
     bottom: 0;
-    backdrop-filter: blur(3px);
+    backdrop-filter: blur(2px);
+    padding-bottom: 20px;
 }
 p.sub-heading-decs {
     font-size: 16px;
@@ -122,13 +132,18 @@ p.sub-heading-decs {
     height: 80px;
     width: auto;
 }
-
+.logo-page-two {
+    height: 100px;
+    padding: 0 10px 10px;
+    width: auto;
+    float: left;
+}
 
 #page-one {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url(../image/page_one.jpeg) top right / cover no-repeat;
+    background: url(../image/page_one.jpeg) center / cover no-repeat;
     animation: FadeInblur 2s ease;
 }
 
@@ -136,7 +151,7 @@ p.sub-heading-decs {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url(../image/page_two.jpeg) bottom right / cover no-repeat;
+    background: url(../image/page_two.jpeg) center / cover no-repeat;
     animation: FadeInblur 2s ease;
 }
 
@@ -161,7 +176,23 @@ p.sub-heading-decs {
     height: 100vh;
     background: url(../image/page_five.jpeg) bottom right / cover no-repeat;
 }
+.baolineup {
+    padding: 10px;
+}
 
+.lineup {
+    width: 150px;
+}
+.hau-ve, .tien-ve, .tien-dao {
+    display: flex;
+}
+.lineup-page-three {
+    display: flex;
+}
+.doihinh {
+    display: block;
+    margin: auto;
+}
 
 @keyframes FadeIn {
     from {left: -100px; right: -100vw; opacity: 0;}
