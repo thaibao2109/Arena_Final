@@ -86,6 +86,8 @@
 
 .heading-page-lineup {
     width: 40%;
+    position: relative;
+    height: 100vh;
 }
 
 .heading {
@@ -178,10 +180,12 @@ p.sub-heading-decs {
 }
 .baolineup {
     padding: 10px;
+    position: relative;
 }
 
 .lineup {
     width: 150px;
+    border-radius: 20px;
 }
 .hau-ve, .tien-ve, .tien-dao {
     display: flex;
@@ -192,6 +196,34 @@ p.sub-heading-decs {
 .doihinh {
     display: block;
     margin: auto;
+}
+.cr:hover .lineup{
+    opacity: 0.8;
+}
+.cr:hover .cr-n {
+    color:white;
+    display: block;
+}
+.cr-n {
+    text-transform: uppercase;
+    font-weight: bolder;
+    width: 150px;
+    position: absolute;
+    top: 60px;
+    display: none;
+    text-align: center;
+}
+
+.hlv {
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+}
+.hlv-text {
+    font-weight: bolder;
+    font-size: 25px;
+    position: absolute;
+    right: 0;
 }
 
 @keyframes FadeIn {
