@@ -176,7 +176,7 @@ p.sub-heading-decs {
     float: left;
     width: 100vw;
     height: 100vh;
-    background: url(../image/page_five.jpeg) bottom right / cover no-repeat;
+    background: url(../image/page_five.jpeg) center / cover no-repeat;
 }
 .baolineup {
     padding: 10px;
@@ -187,16 +187,36 @@ p.sub-heading-decs {
     width: 150px;
     border-radius: 20px;
 }
-.hau-ve, .tien-ve, .tien-dao {
+.hau-ve, .tien-ve, .tien-dao, .thu-mon {
     display: flex;
+    justify-content: center;
 }
 .lineup-page-three {
     display: flex;
 }
 .doihinh {
     display: block;
-    margin: auto;
 }
+
+.example-image {
+    width: 88%;
+    padding: 0px;
+}
+.media-page {
+    display: flex;
+    padding-left: 42px;
+    padding-top: 9px;
+}
+
+.hr::after {
+    position: absolute;
+    border-left: 2px solid rgba(255, 255, 255, 0.7);
+    content: "";
+    height: 100px;
+    right: 50%;
+    top: 30px;
+}
+
 .cr:hover .lineup{
     opacity: 0.8;
 }
@@ -224,8 +244,33 @@ p.sub-heading-decs {
     font-size: 25px;
     position: absolute;
     right: 0;
+    bottom: 50px;
 }
 
+.form-group {
+    display: block;
+    color: white;
+}
+
+.input-css {
+    margin: 10px 0;
+    display: block;
+    height: 40px;
+    width: 500px;
+    border-radius: 10px;
+}
+
+.submit-btn {
+    height: 60px;
+    background-color: red;
+    color: white;
+}
+.submit-btn:hover {
+    font-weight: bolder;    
+}
+.page-five-text {
+    padding-bottom: 20px;
+}
 @keyframes FadeIn {
     from {left: -100px; right: -100vw; opacity: 0;}
     to {left:0; right: 0x; opacity: 1;} 
